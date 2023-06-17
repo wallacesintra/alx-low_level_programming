@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (alp[i] != 'q' && alp[i] != 'e')
 		{
-			putchar(alp[i]); 
+			putchar(alp[i]);
 		}
 	}
 	putchar('\n');
