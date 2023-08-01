@@ -12,7 +12,7 @@ void free_listp(listp_t **head)
 
 	if (head != NULL)
 	{
-		curr = *head;
+		current = *head;
 		while ((temp = curr) != NULL)
 		{
 			current = current->next;
