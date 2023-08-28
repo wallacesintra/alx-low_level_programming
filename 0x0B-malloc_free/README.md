@@ -1,1 +1,0 @@
-malloc - dynamic memory allocation
