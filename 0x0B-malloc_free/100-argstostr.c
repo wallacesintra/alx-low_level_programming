@@ -37,7 +37,7 @@ char *argstostr(int ac, char **av)
 	{
 		if (av[i][j] == '\0')
 		{
-			count[z] = '\n';
+			ptr[z] = '\n';
 			i++;
 			z++;
 			j = 0;
