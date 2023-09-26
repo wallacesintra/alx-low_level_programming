@@ -10,6 +10,7 @@ int pop_listint(listint_t **head)
 {
 	int hnode;
 	listint_t *h, *curr;
+
 	if (*head == NULL)
 		return (0);
 
