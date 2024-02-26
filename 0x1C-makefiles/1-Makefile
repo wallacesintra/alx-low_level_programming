@@ -1,6 +1,6 @@
 # Define variables
 CC = gcc
-SRC = *.c
+SRC = main.c school.c
 
 # all rule
 all: $(SRC)
