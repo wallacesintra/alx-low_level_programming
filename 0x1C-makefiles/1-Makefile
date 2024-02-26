@@ -1,7 +1,5 @@
-# Define variables
+# define variables
 CC = gcc
 SRC = main.c school.c
-
-# all rule
 all: $(SRC)
-    $(CC) $(SRC) -o school
+	$(CC) $(SRC) -o school
